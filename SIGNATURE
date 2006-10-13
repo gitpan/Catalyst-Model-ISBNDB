@@ -1,0 +1,70 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 f45c54d32de4567b840526c9e1d57c2c39a49552 Build.PL
+SHA1 db16d28c92793ad6a3366defa255937ebf170f73 ChangeLog
+SHA1 172107c37f68a2e99f36557322f9858b97bc4aa8 ChangeLog.xml
+SHA1 226b186d83dbcbdb0b71255d2c192c59a872c5e7 MANIFEST
+SHA1 e47bc0568fece0725756e00a4707fcf11aa346d1 MANIFEST.SKIP
+SHA1 7c6b35e1403d61a64e35d0dd038fe1e2b2bbad15 META.yml
+SHA1 41d3042fdf44cea0d9510adfa596b80fbffc9195 Makefile.PL
+SHA1 092e0b8826a2e9c22f6afe1e504bbd55a1cff63c README
+SHA1 a9283489bd29f8605143c4cee247a67e7beafa46 etc/ChangeLogML.xsd
+SHA1 f2384f9ef7c10d42ffcb074959ac40cdccb3765f lib/Catalyst/Model/ISBNDB.pm
+SHA1 72678a99aa6a15200e6440495386a782693ebb3d t/00_signature.t
+SHA1 c40436b1eb0ee387095f64324a19fda9ea3f716b t/01_pod.t
+SHA1 516444c7cbb14cb2f4dfe9b5914de179e9b3bb8e t/02_pod_coverage.t
+SHA1 998377af758f7b8591211ad3a503362b2136efee t/10_basic.t
+SHA1 37c63674bbdda3982fbd8db06436da5abc11dce3 t/DUMMY.pm
+SHA1 f46fa8a546971e389b622321c1baf44e2dd622fe t/xml/Authors-person_id=poe_edgar_allan.xml
+SHA1 b3b941de76391c526b5a29f7177bcf8ba19c9501 t/xml/Books-book_id=programming_web_services_with_perl.xml
+SHA1 b3b941de76391c526b5a29f7177bcf8ba19c9501 t/xml/Books-isbn=0596002068.xml
+SHA1 0d407d1f4dc6e0ceef43bae971f120aa9c3b8647 t/xml/Books-page_number=10-person_id=poe_edgar_allan.xml
+SHA1 38f07f915df7e4d76d39d593a15041cd3a21359f t/xml/Books-page_number=11-person_id=poe_edgar_allan.xml
+SHA1 8f7c09f432fc8a271263851fe9d25ab5d2008e74 t/xml/Books-page_number=12-person_id=poe_edgar_allan.xml
+SHA1 e68c03caeb05ca7dab8e75c65ddc41dea94e2724 t/xml/Books-page_number=13-person_id=poe_edgar_allan.xml
+SHA1 503dbfd2a81198202fe37f2c5dace994f04be2ef t/xml/Books-page_number=14-person_id=poe_edgar_allan.xml
+SHA1 497f3e10feaa5ee232149f673672961503b8642d t/xml/Books-page_number=15-person_id=poe_edgar_allan.xml
+SHA1 aaf834928da30f783cee74b4f1e618d8dbf132dd t/xml/Books-page_number=16-person_id=poe_edgar_allan.xml
+SHA1 0ed3f56dd12fe3ecc93872f638b2b0515f07d737 t/xml/Books-page_number=17-person_id=poe_edgar_allan.xml
+SHA1 df6f3aa06abcb88c2280592b54517dc02a023ba3 t/xml/Books-page_number=18-person_id=poe_edgar_allan.xml
+SHA1 5c9a072813f7dacd6c4273663c360bbd709c4463 t/xml/Books-page_number=19-person_id=poe_edgar_allan.xml
+SHA1 54d868b4af404332ec4dd83219e1d3bd941f573e t/xml/Books-page_number=2-person_id=poe_edgar_allan.xml
+SHA1 ad1297871c1fca89f6e26cbe7d26eacc04aeb1e6 t/xml/Books-page_number=20-person_id=poe_edgar_allan.xml
+SHA1 a5dd3f5a130ce736e789a52ddf61c685ad5fd1fc t/xml/Books-page_number=21-person_id=poe_edgar_allan.xml
+SHA1 881e7647f5845eef8d3e4f6b4b4e7595b34ebc80 t/xml/Books-page_number=22-person_id=poe_edgar_allan.xml
+SHA1 d488744dfa3ffa65cc2e19f0e6a089aa04a0de09 t/xml/Books-page_number=23-person_id=poe_edgar_allan.xml
+SHA1 122f84d33b2aa70cf40dc66c4acce0655e57c21f t/xml/Books-page_number=24-person_id=poe_edgar_allan.xml
+SHA1 61e65c93b5cc55123e3f2a60ed64668937b4049c t/xml/Books-page_number=25-person_id=poe_edgar_allan.xml
+SHA1 fd97600ab1399a3815439d95c518868bb7727540 t/xml/Books-page_number=26-person_id=poe_edgar_allan.xml
+SHA1 a82c3394aeb12a1b2e2d732dcc23acad6b3dd5df t/xml/Books-page_number=3-person_id=poe_edgar_allan.xml
+SHA1 9dd90d099cf43e2e7227edde38c12b2317757cb3 t/xml/Books-page_number=4-person_id=poe_edgar_allan.xml
+SHA1 a5f72cfbeff3a0c9def15b6ec4b0da619af503c1 t/xml/Books-page_number=5-person_id=poe_edgar_allan.xml
+SHA1 80501fe92c60fcff4669bdc26851d4338d6b0d05 t/xml/Books-page_number=6-person_id=poe_edgar_allan.xml
+SHA1 d4928d20a4fc7f82225ac9a0d35ba530803fb9b7 t/xml/Books-page_number=7-person_id=poe_edgar_allan.xml
+SHA1 81440a4dae640158d629f79794321bd6dde19b47 t/xml/Books-page_number=8-person_id=poe_edgar_allan.xml
+SHA1 c59ef0b6bf7a97d41527682952e47d675d18ad7c t/xml/Books-page_number=9-person_id=poe_edgar_allan.xml
+SHA1 4dd1daf4f97d24f649c6de3db490a5aa0aadd976 t/xml/Books-person_id=poe_edgar_allan.xml
+SHA1 f4c8029208f19859f287b109719efa1a5c70189e t/xml/Categories-category_id=science.xml
+SHA1 f6a59b98a34bac0bc4ca1c67c788fe2309eed381 t/xml/Publishers-publisher_id=oreilly.xml
+SHA1 05626c3f827f5f57998332c66b7e07a01f2d6fd3 t/xml/Subjects-subject_id=perl_computer_program_language.xml
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+
+iD8DBQFFLyFD3Cp33jjp81URAq3DAKCMUQjC+DRsHd2dfVGfQ60nocy3AgCeJhNT
+4/tTT2PtOaU0iZdw9oaBgq4=
+=/Gio
+-----END PGP SIGNATURE-----
