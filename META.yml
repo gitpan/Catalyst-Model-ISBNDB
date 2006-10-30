@@ -1,6 +1,6 @@
 ---
 name: Catalyst-Model-ISBNDB
-version: 0.10
+version: 0.20
 author:
   - 'Randy J. Ray <rjray@blackperl.com>'
 abstract: Catalyst model for accessing the isbndb.com REST interface
@@ -13,6 +13,9 @@ requires:
 build_requires:
   Test::More: 0
 provides:
+  Catalyst::Helper::Model::ISBNDB:
+    file: lib/Catalyst/Helper/Model/ISBNDB.pm
+    version: 0.10
   Catalyst::Model::ISBNDB:
     file: lib/Catalyst/Model/ISBNDB.pm
     version: 0.10

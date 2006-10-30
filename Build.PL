@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# $Id: Build.PL 5 2006-10-13 05:16:30Z  $
+# $Id: Build.PL 9 2006-10-30 06:54:46Z  $
 
 use Module::Build;
 
@@ -10,6 +10,7 @@ my $build = Module::Build->new(
                         WebService::ISBNDB => '0.31' },
     build_requires => { Test::More => 0 },
     dist_author    => 'Randy J. Ray <rjray@blackperl.com>',
+    dist_version   => '0.20',
     dist_abstract  =>
     'Catalyst model for accessing the isbndb.com REST interface',
     sign           => 'here, please',
