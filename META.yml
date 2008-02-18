@@ -1,25 +1,30 @@
 ---
 name: Catalyst-Model-ISBNDB
-version: 0.20
+version: 0.21
 author:
   - 'Randy J. Ray <rjray@blackperl.com>'
 abstract: Catalyst model for accessing the isbndb.com REST interface
-license: artistic
+license: perl
 resources:
-  license: http://opensource.org/licenses/artistic-license.php
+  license: http://dev.perl.org/licenses/
 requires:
+  Catalyst::Runtime: 5.7
+  NEXT: 0.6
   WebService::ISBNDB: 0.31
-  perl: 5.6.0
+  perl: 5.006
 build_requires:
   Test::More: 0
+recommends:
+  Test::Pod: 0
+  Test::Pod::Coverage: 0
 provides:
   Catalyst::Helper::Model::ISBNDB:
     file: lib/Catalyst/Helper/Model/ISBNDB.pm
-    version: 0.10
+    version: 0.11
   Catalyst::Model::ISBNDB:
     file: lib/Catalyst/Model/ISBNDB.pm
-    version: 0.10
-generated_by: Module::Build version 0.2805
+    version: 0.11
+generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2

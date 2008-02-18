@@ -1,14 +1,14 @@
 ###############################################################################
 #
-# This file copyright (c) 2006 by Randy J. Ray, all rights reserved
+# This file copyright (c) 2008 by Randy J. Ray, all rights reserved
 #
 # Copying and distribution are permitted under the terms of the Artistic
-# License as distributed with Perl versions 5.005 and later. See
-# http://language.perl.com/misc/Artistic.html
+# License 2.0 (http://www.opensource.org/licenses/artistic-license-2.0.php) or
+# the GNU LGPL (http://www.opensource.org/licenses/lgpl-license.php).
 #
 ###############################################################################
 #
-#   $Id: ISBNDB.pm 5 2006-10-13 05:16:30Z  $
+#   $Id: ISBNDB.pm 14 2008-02-18 10:24:07Z  $
 #
 #   Description:    A Catalyst model for providing access to the isbndb.com
 #                   web service.
@@ -25,15 +25,16 @@
 
 package Catalyst::Model::ISBNDB;
 
-use 5.6.0;
+use 5.006;
 use strict;
+use warnings;
 use vars qw($VERSION);
 use base 'Catalyst::Model';
 
 use NEXT;
 use WebService::ISBNDB::API;
 
-$VERSION = "0.10";
+$VERSION = "0.11";
 
 BEGIN
 {

@@ -14,22 +14,22 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 c8770a5d0c5ee4daf3586d2950a00f6ffcfee49c Build.PL
-SHA1 a43a80f72d0c5d4ed2f75db0b2fcd1b846bc1d56 ChangeLog
-SHA1 c7b7c296964ddf1ac8136487d79bfe547d07eab0 ChangeLog.xml
+SHA1 47fd15c84f807d92b53ffa157a51bde133b9a6f3 Build.PL
+SHA1 31b29c0b4fa2c2419033fa088d0a2a5cf96ea7e2 ChangeLog
+SHA1 a06a1740aae776238b9d4cb6a89a8630ffaa6bd2 ChangeLog.xml
 SHA1 8abc1da64a922bf3a7092fe99550afc534a3ba34 MANIFEST
 SHA1 e47bc0568fece0725756e00a4707fcf11aa346d1 MANIFEST.SKIP
-SHA1 fa0519c2e6bd20d84edba39bd2f551c120660de0 META.yml
+SHA1 747974ea2420c0ab156d66ce83d04c6b79979a86 META.yml
 SHA1 41d3042fdf44cea0d9510adfa596b80fbffc9195 Makefile.PL
-SHA1 3532e3d6831bedf657e9616f9443695ca9b7ee01 README
+SHA1 2fa4df4263cad53a2fa7e77af406ccac36cafd65 README
 SHA1 a9283489bd29f8605143c4cee247a67e7beafa46 etc/ChangeLogML.xsd
-SHA1 67013292a2d79592b63d8a7aea515457b6224597 lib/Catalyst/Helper/Model/ISBNDB.pm
-SHA1 f2384f9ef7c10d42ffcb074959ac40cdccb3765f lib/Catalyst/Model/ISBNDB.pm
+SHA1 472e5487c7618f8ca0d41e4a996505c6315e42c2 lib/Catalyst/Helper/Model/ISBNDB.pm
+SHA1 077fcec12ecf476880dbdaa0ff106893c70206a4 lib/Catalyst/Model/ISBNDB.pm
 SHA1 72678a99aa6a15200e6440495386a782693ebb3d t/00_signature.t
 SHA1 c40436b1eb0ee387095f64324a19fda9ea3f716b t/01_pod.t
 SHA1 516444c7cbb14cb2f4dfe9b5914de179e9b3bb8e t/02_pod_coverage.t
 SHA1 998377af758f7b8591211ad3a503362b2136efee t/10_basic.t
-SHA1 37c63674bbdda3982fbd8db06436da5abc11dce3 t/DUMMY.pm
+SHA1 dfc664ca735ddc1df7f43a3c81ce48e2a864f4b7 t/DUMMY.pm
 SHA1 f46fa8a546971e389b622321c1baf44e2dd622fe t/xml/Authors-person_id=poe_edgar_allan.xml
 SHA1 b3b941de76391c526b5a29f7177bcf8ba19c9501 t/xml/Books-book_id=programming_web_services_with_perl.xml
 SHA1 b3b941de76391c526b5a29f7177bcf8ba19c9501 t/xml/Books-isbn=0596002068.xml
@@ -63,9 +63,9 @@ SHA1 f4c8029208f19859f287b109719efa1a5c70189e t/xml/Categories-category_id=scien
 SHA1 f6a59b98a34bac0bc4ca1c67c788fe2309eed381 t/xml/Publishers-publisher_id=oreilly.xml
 SHA1 05626c3f827f5f57998332c66b7e07a01f2d6fd3 t/xml/Subjects-subject_id=perl_computer_program_language.xml
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.2.2 (GNU/Linux)
+Version: GnuPG v1.4.6 (GNU/Linux)
 
-iD8DBQFFRaLv3Cp33jjp81URAg6NAJ9MxP/Rd3t8Tv37g4oRa+J8addMnACbBCj2
-e5pvjUZrcCiYhkvN8rnyNWo=
-=2oV9
+iD8DBQFHuWct3Cp33jjp81URAtK/AJ0TvhE4mzvcsmufbi0LdBCGB6cAngCfTWTk
+aHYnwHB0MdH6Zrqpg+KNaLQ=
+=hVVy
 -----END PGP SIGNATURE-----

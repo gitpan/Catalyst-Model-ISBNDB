@@ -4,7 +4,7 @@
 
     http://www.blackperl.com/XML/ChangeLog/ChangeLogML.xsd
 
-    $Id: ChangeLog.xml 9 2006-10-30 06:54:46Z  $
+    $Id: ChangeLog.xml 19 2008-02-18 11:06:27Z  $
 -->
 <changelog xmlns="http://www.blackperl.com/XML/ChangeLog"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -13,6 +13,36 @@
     Revision history for the Perl extension module WebService::ISBNDB. This is
     an API to communicate with the web service hosted by isbndb.com.
   </description>
+  <release date="2008-02-18T10:39:34-08:00" version="0.21" tag="v0_21">
+    <change>
+      <fileset>
+        <file path="lib/Catalyst/Helper/Model/ISBNDB.pm" revision="14" />
+        <file path="lib/Catalyst/Model/ISBNDB.pm" revision="14" />
+        <file path="t/DUMMY.pm" revision="14" />
+      </fileset>
+      <description>
+        Updated all copyright dates and license information. All license
+        references are now to the dual-license arrangement (Artistic 2.0 and
+        LGPL). Added use of "warnings" pragma to any modules that didn't
+        already have it.
+      </description>
+    </change>
+    <change>
+      <file path="Build.PL" revision="15" />
+      <description>
+        Updated the package version, fixed reference to required perl version
+        to remove use of v-string, and added some overlooked dependencies in
+        the "requires" parameter.
+      </description>
+    </change>
+    <change>
+      <file path="t/00_load.t" revision="18" />
+      <description>
+        Fixed references to modules in this test. For some reason, the tests
+        referred to the ::XMLRPC Catalyst components, and no one caught it.
+      </description>
+    </change>
+  </release>
   <release version="0.20" tag="v0_20" date="2006-10-29T23:50:57-07:00">
     <change>
       <fileset>
