@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# $Id: 10_basic.t 5 2006-10-13 05:16:30Z  $
+# $Id$
 
 use strict;
 use warnings;

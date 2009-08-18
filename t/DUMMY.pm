@@ -8,7 +8,7 @@
 #
 ###############################################################################
 #
-#   $Id: DUMMY.pm 14 2008-02-18 10:24:07Z  $
+#   $Id$
 #
 #   Description:    This is a dummy-protocol stub that inherits from the REST
 #                   protocol module, but replaces the raw_content() method that
